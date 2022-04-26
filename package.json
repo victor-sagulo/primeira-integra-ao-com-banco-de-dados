@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.21.0",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "pg": "^8.7.3"
+  },
+  "name": "primeira-integra-ao-com-banco-de-dados",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/victor-sagulo/primeira-integra-ao-com-banco-de-dados.git",
+  "author": "Victor <vlcampos921@gmail.com>",
+  "scripts": {
+    "dev": "nodemon --exec sucrase-node ./src/index.js"
+  },
+  "license": "MIT"
+}
